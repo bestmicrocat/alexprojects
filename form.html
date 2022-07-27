@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Powered by honey</title>
+</head>
+
+<body>
+    <header>
+        <img src="honeycomb1.jpg"><h2>Powered by honey</h2>
+        <hr>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html" target="_blank">about</a>
+        <a href="products.html" target="_blank">products</a>
+        <a href="form.html" target="_blank">form</a>
+    </nav>
+    <div>
+        <form method="GET">
+                <label>First name:</label>
+                <input type="text" name="firstname" id="t1"><br>
+                <label>Last name:</label>
+                <input type="text" name="lastname" id="t2"><br>
+                <label>Password:</label>
+                <input type="password" name="password" id="pwd" min="8"><br>
+                <label>Birth date:</label>
+                <input type="date" name="birthdate" id="t3"><br>
+                <label>How often do you eat honey?</label><br>
+                <input type="radio" name="eath" id="r1" value="severaltimesperweek">several times in a week<br>
+                <input type="radio" name="eath" id="r2" value="onceaweek">once a week<br>
+                <input type="radio" name="eath" id="r3" value="onceamonth">once a month<br>
+                <label for="drinks">Favorite drink in the morning:</label>
+                <input type="checkbox" name="drinks" id="c1" value="Coffee" checked>Coffee
+                <input type="checkbox" name="drinks" id="c2" value="Orange juice">Orange juice
+                <input type="checkbox" name="drinks" id="c3" value="Latte">Latte
+                <input type="checkbox" name="drinks" id="c4" value="Tea">Tea<br>
+                <label>Select a type of honey you prefer:</label><br><br>
+                <select name="honeytype" id="m1">
+                    <option value="Multiflower">Multiflower</option>
+                    <option value="Honeydew">Honeydew</option>
+                    <option value="Dandelion">Dandelion</option>
+                    <option value="Rasberys">Rasberys</option>
+                    <option value="Goldenrod">Goldenrod</option>
+                </select><br><br>
+                <label>Select the products you like to pair honey with:</label><br><br>
+                <select multiple name="products" id="m2">
+                    <option value="Fruit">Fruit</option>
+                    <option value="Nuts">Nuts</option>
+                    <option value="Cheese">Cheese</option>
+                    <option value="Tea">Tea</option>
+                    <option value="Butter">Butter</option>
+                </select><br><br>
+                
+                <label>Email:</label>
+                <input type="email" name="email" id="t5" required><br>
+                <input type="submit" name="submit" id="btn1" value="Register now!">
+                <input type="reset" name="reset" id="btn2" value="Reset">
+            </form>
+    </div>
+    <footer>
+        <br><br><br><br><br><br>
+        ©PoweredByHoney 2022
+    </footer>
+</body>
+</html>
